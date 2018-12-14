@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      property="qc:admins"
+      content="7401431725621653613475654455771645060454"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="个人网站,ant design,程序员,web前端" />
+    <meta name="author" content="cosyer" />
+    <meta name="description" content="这是用基于ant motion模板开发的网站" />
+    <title>陈宇的个人网站</title>
+    <link rel="stylesheet" href="//dir.mydearest.cn/motion/css/index.css" />
+    <link rel="stylesheet" href="//dir.mydearest.cn/motion/css/chatroom.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script>
+      (function(h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function() {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 475853, hjsv: 5 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "//static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <style>
+      /*用户头像*/
+      .user .ant-menu-item,
+      .user .ant-menu-submenu-title {
+        margin-left: 30px;
+        padding: 0 20px;
+        position: relative;
+        display: block;
+        white-space: nowrap;
+      }
+
+      #cms .ant-layout-sider-collapsed .anticon {
+        font-size: 16px;
+        margin-left: 8px;
+      }
+
+      #cms .ant-layout-sider-collapsed .nav-text {
+        display: none;
+      }
+
+      #cms
+        .ant-layout-sider-collapsed
+        .ant-menu-submenu-vertical
+        > .ant-menu-submenu-title:after {
+        display: none;
+      }
+    </style>
+    <!--[if IE]>
+      <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- 搜狐接口 -->
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script type="text/javascript">
+      console.log(returnCitySN["cip"] + "," + returnCitySN["cname"]);
+    </script>
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/socket.io/1.3.7/socket.io.js"></script>
+    <script
+      type="text/javascript"
+      src="//dir.mydearest.cn/motion/js/chatroom.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <div class="object" id="object_one"></div>
+          <div class="object" id="object_two" style="left:20px;"></div>
+          <div class="object" id="object_three" style="left:40px;"></div>
+          <div class="object" id="object_four" style="left:60px;"></div>
+          <div class="object" id="object_five" style="left:80px;"></div>
+        </div>
+      </div>
+    </div>
+    <div id="root"></div>
+    <script src="common.js"></script>
+    <script src="index.js"></script>
+    <!-- 有言评论 -->
+    <!--
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+    -->
+    <!-- 下雪 -->
+    <!--
+      <script type="text/javascript" src="//dir.mydearest.cn/motion/js/snow.js">
+      </script>
+    -->
+  </body>
+</html>
